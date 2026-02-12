@@ -1,0 +1,143 @@
+*{
+    background-color: pink;
+}
+.hello{
+    display: flex;
+    font-size: 3rem;
+    font-family: cursive;
+    color:rgb(48, 0, 16);
+}
+.may{
+    display:flex;
+    font-size: 2rem;
+    font-family: cursive;
+    color:rgb(48, 0, 16);
+}
+.img1{
+    position: absolute;
+    left: 675px;
+    top:25px;
+    border-radius : 50%;
+}
+.line-container {
+    height: 800px; 
+    display: flex;
+    position: absolute;
+    left:700px;
+    align-items: center;
+}
+.animated-line {
+    width: 5px;                
+    background-color: rgb(172, 41, 137);    
+    height: 0;                  
+    animation: grow 5s ease-out forwards; 
+}
+@keyframes grow {
+    from {
+        height: 0;
+    }
+    to {
+        height: 600px; 
+    }
+}
+.rectangle {
+    width: 675px;      
+    height: 800px;      
+    background-color: rgb(243, 154, 169);
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    width:350px;
+    height:50px;
+    background-color: rgb(243, 154, 169);
+    border: 2px solid black;
+    border-radius:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size:3rem;
+    top:210px;
+    left: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 0, 16);
+}
+.heading{
+    position: absolute;
+    display: flex;
+    top:220px;
+    left:185px;
+    background-color: rgb(209, 61, 86);
+    border-radius: 20px;
+    color: azure;
+    height: 70px;
+    width:300px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+.social-buttons {
+    display: flex;
+    gap: 50px;             
+    flex-direction: column;
+    
+    position: absolute;
+    top: 400px;           
+    left: 815px;           
+}
+.btn {
+    text-decoration: none; 
+    color: white;         
+    padding: 30px 120px; 
+    border-radius: 8px;   
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 20px;
+    width: 83px;
+    font-size: 20px;
+    transition: transform 0.2s;
+}
+.whatsapp {
+    background-color: #25D366;
+}
+.facebook {
+    background-color: #1877F2; 
+}
+.x-platform {
+    background-color: #000000; 
+}
+.btn:hover {
+    transform: scale(1.1);
+}
+.bio-content {
+    margin-top: 150px; 
+    padding: 90px;
+    color: rgb(48, 0, 16);
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 50px; 
+    background-color: transparent;
+}
+.bio-item {
+    display: flex;
+    justify-content: space-between; 
+    border-bottom: 3px dashed rgb(230, 106, 106); 
+    padding-bottom: 10px;
+    background-color: transparent;
+}
+.label {
+    font-weight: bold;
+    background-color: transparent; 
+}
+.value {
+    background-color: transparent;
+}
